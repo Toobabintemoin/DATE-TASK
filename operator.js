@@ -102,6 +102,30 @@ a /=b is  :  ${result3}
 a %=b is  : ${result4} 
 a **=b is : ${result5}`);
 
+console.log("========Comparision operator==========");
+
+var firstValue = 100;
+var secondValue = 50;
+
+var equalValue = (firstValue ==  secondValue);
+var equalValueAndType = (firstValue ===  secondValue);
+var notEqual = (firstValue !=  secondValue);
+var notEqualAndType = (firstValue !==  secondValue);
+var greaterThan = (firstValue >  secondValue);
+var lessThan = (firstValue <  secondValue);
+var greaterThanEqual = (firstValue >=  secondValue);
+var lessThanEqual = (firstValue <=  secondValue);
+
+console.log(`
+equalValue is : ${equalValue}
+equalValueAndType is : ${equalValueAndType}
+notEqual is : ${notEqual}
+notEqualAndType is : ${notEqualAndType}
+greaterThan is ${greaterThan}
+lessThan is : ${lessThan}
+greaterThanEqual is : ${greaterThanEqual}
+lessThanEqual is : ${lessThanEqual}`);
+
 
 
 
